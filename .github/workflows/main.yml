@@ -4,5 +4,5 @@ on:
       - main
 jobs:
   execute:
-    uses: Sravanthi-11/.github/workflows/github-actions-demo.yml@main
+    uses: Sravanthi-11/GitHub.Test/.github/workflows/github-actions-demo.yml@main
     secrets: inherit
