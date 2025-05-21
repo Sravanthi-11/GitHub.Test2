@@ -1,0 +1,8 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  execute:
+    uses: Sravanthi-11/.github/workflows/github-actions-demo.yml@main
+    secrets: inherit
